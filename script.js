@@ -2,9 +2,14 @@
 let theDivs = document.getElementsByClassName("dropDown");
 let repos = document.getElementById('repos');
 
+let eventTest;
 
 repos.addEventListener('click', (e) => {
+
     toggleView('repoList')
+    
+    eventTest = e;
+
 })
 
 let test;

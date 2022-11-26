@@ -2,17 +2,33 @@
 body{
     background-color: rgb(170, 211, 248);
     text-align: center;
+    padding: 50px;
 }
 h1,h2,h3, body{
 font-family: Arial, Helvetica, sans-serif;
 padding-top: 15px;
 }
-div{
+
+.border{
     outline: solid black;
+    border-radius: 10px;
 }
-.p{
-    padding: 100px;
+p{
+    padding: 10px;
 }
+.dropDown:hover{
+    background-color:rgb(205, 255, 205);
+    cursor: pointer;
+}
+#repos:hover{
+    background-color:rgb(205, 255, 205);
+    cursor: pointer; 
+}
+
+a{
+ font-family: 'Courier New', Courier, monospace;
+}
+
 .container{
     padding: 15px;
     display: flex;
@@ -20,9 +36,7 @@ div{
       justify-content: space-evenly;
       align-items: center;
 }
-.gameDev{
-    padding: 10px;
-}
+
 h1{
     text-align: center;
 }
