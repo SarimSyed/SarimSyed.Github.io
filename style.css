@@ -1,8 +1,9 @@
 
 body{
-    background-color: rgb(170, 211, 248);
+    background-color: rgb(154, 203, 246);
     text-align: center;
     padding: 50px;
+    font-size: 2.5vh;
 }
 h1,h2,h3, body{
 font-family: Arial, Helvetica, sans-serif;
@@ -12,6 +13,8 @@ padding-top: 15px;
 .border{
     outline: solid black;
     border-radius: 10px;
+    background-color: rgb(178, 218, 254);
+
 }
 p{
     padding: 10px;
